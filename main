@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Week 1 Homework</title>
+		<style type="text/css">
+			body {
+				margin: 0;
+				padding: 0;
+			}
+
+			#box1 {
+				height: 100vh;
+				width: 100%;
+				background-image: url("img/wallpaper.jpg");
+				background-size: cover;
+				display: table;
+				background-attachment: fixed;
+			}
+
+			#box2 {
+				height: 100vh;
+				width: 100%;
+				background-image: url("img/wallpaper2.jpg");
+				background-size: cover;
+				display: table;
+				background-attachment: fixed;
+			}
+
+			#box3 {
+				height: 100vh;
+				width: 100%;
+				background-image: url("img/wallpaper3.jpg");
+				background-size: cover;
+				display: table;
+				background-attachment: fixed;
+			}
+
+			h1 {
+				font-family: Georgia Header;
+				font-size: 30px;
+				color: white;
+				margin: 0px;
+				text-align: center;
+				display: table-cell;
+				vertical-align: middle;
+				text-shadow: 0 0 2px #bcbcbc;
+			}
+
+		/*	#heart {
+				height: 100px;
+				position: absolute;
+			}*/
+
+		</style>
+</head>
+<body>
+
+<!-- <img id="heart" src="heart.png"> -->
+
+<div id="box1">
+	<h1>PROTECT MY</h1>
+</div>
+<div id="box2">
+	<h1>BABIES AT</h1>
+</div>
+<div id="box3">
+	<h1>ALL COSTS</h1>
+</div>
+<!-- 
+<script src="jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+	<script src="js.js"></script>
+ -->
+
+</body>
+</html>
